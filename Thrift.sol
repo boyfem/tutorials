@@ -34,6 +34,7 @@ contract Thrift{
         Users[] memory all = clubToUser[_clubName];
         return all;
     }
+    //sd
 
     function proposedContirbutionAmount(string memory _clubName, uint256 _proposedAmount) public {
 //   require(clubToUser[_clubName].length>0, "wrong");
